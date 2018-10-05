@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: guestbook
+  username: <%= ENV['grill'] %>
+  password: <%= ENV['panther'] %>
+  host: localhost
+  
+production:
+  adapter: postgresql
+  host: <%= ENV['ec2-50-17-250-38.compute-1.amazonaws.com'] %>
+  database: <%= ENV['d1lir2f9qe7o8'] %>
+  username: <%= ENV['yehgshuigjxvdi'] %>
+  password: <%= ENV['728ea280e13b912a1cb943dd56bcad2c5099599191ab61ff1774ce0fb65cef5a'] %>

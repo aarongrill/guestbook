@@ -1,0 +1,10 @@
+<h3>All Guests</h3>
+<ul>
+<% @guests.each do |guest| %>
+	<li>
+		<%= guest.name %><br>
+		<%= guest.message %>
+	</li>
+<% end %>
+</ul>
+<a href="/">Back to Home</a>

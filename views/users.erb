@@ -1,0 +1,10 @@
+<h3>All Guests</h3>
+<table></table>
+<% @users.each do |user| %>
+	<tr>
+		<td><%= user.first %></td>
+		<td><%= user.last %></td>
+	</tr>
+<% end %>
+</table>
+<a href="/">Back to Home</a>
